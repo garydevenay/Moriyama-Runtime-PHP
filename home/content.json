@@ -1,0 +1,27 @@
+{
+  "Name": "Home",
+  "Type": "Home",
+  "CreateDate": "2009-01-09T09:01:00",
+  "UpdateDate": "2015-01-19T18:41:22",
+  "CreatorName": "Gary Devenay",
+  "WriterName": "Gary Devenay",
+  "Url": "http://localhost/",
+  "RelativeUrl": "/",
+  "Content": {
+    "umbracoUrlAlias": "/",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-09T09:01:00Z",
+    "title": "This is a template test!",
+    "shortUrl": "",
+    "summary": "This is a test homepage",
+    "tags": "",
+    "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a magna turpis. Duis bibendum diam justo. Morbi nec ipsum a odio venenatis condimentum. Ut non sollicitudin mauris, nec lacinia ante. Sed pulvinar justo vel massa tincidunt, eu convallis lacus faucibus. Donec semper efficitur libero, a volutpat sapien sodales quis. Nunc maximus dolor elit, vehicula finibus est venenatis sed. Donec aliquam massa lectus. Nulla posuere ipsum eu risus rutrum, ac imperdiet augue porta.<br /><br />In hac habitasse platea dictumst. Donec et varius leo. Fusce vehicula egestas dolor nec vehicula. Aenean id iaculis turpis. Integer aliquam sapien eu vehicula faucibus. Nunc vitae ante in ante imperdiet molestie quis ultricies sem. Donec pretium pellentesque malesuada. Sed porta lacus at lorem semper, at vehicula arcu dignissim.",
+    "commentsDisabled": ""
+  },
+  "Template": "Home",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 1
+}
