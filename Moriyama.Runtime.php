@@ -1,8 +1,8 @@
 <?php
-
   namespace Moriyama {
+    require_once('interfaces/IRuntimeProvider.php');
 
-    class Runtime {
+    class Runtime implements Interfaces\IRuntimeProvider {
 
       private $_url;
       private $_path;
@@ -27,6 +27,10 @@
 
         $this->node = json_decode(fread($file, filesize($this->_path)));
         fclose($file);
+      }
+
+      public function GetTemplate() {
+        return dirname(__FILE__) . DIRECTORY_SEPARATOR . "templates" . DIRECTORY_SEPARATOR . strtolower($this->node->Template) . ".php";
       }
     }
   }
