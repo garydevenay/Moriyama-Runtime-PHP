@@ -31,7 +31,15 @@
       }
 
       public function GetTemplate() {
-        return dirname(__FILE__) . DIRECTORY_SEPARATOR . "templates" . DIRECTORY_SEPARATOR . strtolower($this->node->Template) . ".php";
+        return $this->_getTemplate($this->node->Template);
+      }
+
+      public function RenderTemplate($name) {
+        return $this->_getTemplate($name);
+      }
+
+      private function _getTemplate($name) {
+        return dirname(__FILE__) . DIRECTORY_SEPARATOR . "templates" . DIRECTORY_SEPARATOR . strtolower($name) . ".php";
       }
     }
   }

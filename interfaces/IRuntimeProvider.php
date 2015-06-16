@@ -5,6 +5,8 @@
 
       public function GetTemplate();
 
+      public function RenderTemplate($name);
+
     }
 
   }
