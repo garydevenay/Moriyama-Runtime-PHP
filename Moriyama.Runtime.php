@@ -1,6 +1,6 @@
 <?php
   namespace Moriyama {
-    require_once('interfaces/IRuntimeProvider.php');
+    require_once('interfaces' . DIRECTORY_SEPARATOR . 'IRuntimeProvider.php');
 
     class Runtime implements Interfaces\IRuntimeProvider {
 
@@ -17,6 +17,7 @@
         }
 
         $this->_path = $this->_url . 'content.json';
+        $this->_path = str_replace('/', DIRECTORY_SEPARATOR, $this->_path);
 
         $this->_getNode();
         $this->content = $this->node->Content;
