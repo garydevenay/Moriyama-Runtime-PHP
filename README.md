@@ -18,3 +18,6 @@ When an instance of `$runtime = new Moriyama\Runtime()` is created, you will be 
 Templates are stored in the `templates/` folder. All template names should equal that which is defined in Umbraco only **all lower case**.
 
 In all templates you will have access to `$runtime->node` and `$runtime->content`.
+
+## Home node
+The url rewriting looks for `home` to be the root content folder, though this can be overwritten in the `.htaccess` file if required.
